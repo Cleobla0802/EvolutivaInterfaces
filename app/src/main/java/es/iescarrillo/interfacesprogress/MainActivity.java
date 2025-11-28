@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
         // Listener del CheckBox
         cbFavorito.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (isChecked) {
-                Toast.makeText(MainActivity.this, "Añadido a favoritos ❤️", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Añadido a favoritos", Toast.LENGTH_SHORT).show();
             } else {
                 Toast.makeText(MainActivity.this, "Eliminado de favoritos", Toast.LENGTH_SHORT).show();
             }
